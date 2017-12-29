@@ -43,3 +43,5 @@ dist
 
 #mock db
 db.json
+
+# simulate jenkins
