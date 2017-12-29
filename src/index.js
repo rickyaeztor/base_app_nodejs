@@ -7,6 +7,7 @@ import {getUsers} from './api/userApi';
 getUsers().then(result => {
   let usersBody = "";
 
+
   result.forEach(user => {
     usersBody+= `<tr>
       <td><a href="#" data-id="${user.id}" class="deleteUser">Delete</a></td>
